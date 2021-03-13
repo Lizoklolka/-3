@@ -146,7 +146,6 @@ struct TrunkCar {
 var sportCar1 = SportCar(marka: "chevrolet", startYear: 2012, trunkVolume: 450, engineStarted: .notLaunched, windowStatus: .close, usedTrunkVolume: 220)
 var trunkCar1 = TrunkCar(marka: "honda", startYear: 2020, trunkVolume: 650, engineStarted: .launched, windowStatus: .open, usedTrunkVolume: 400)
 
-
 print("Запуск/отключение двигателя")
 print(" ")
 sportCar1.engineStarted = .launched
